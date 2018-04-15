@@ -1,49 +1,40 @@
-> Please read our slide creation guidelines in [the wiki](https://github.com/girldevelopit/gdi-slides-template/wiki). Then, delete this banner and add the specifics about your class below.
+# Intro to Git &amp; Github :octocat:  
 
-# Add Your Course Title Here
+**Presented by [Girl Develop It, Cincinnati](http://gdicincy.com)**
 
-Slides and materials are hosted at [http://github.io/your_username_here/your_repository_name_here](http://github.io/your_username_here/your_repository_name_here).
+Ever make changes that broke your code and forgot how your code worked before? Want to work with someone on a code project, but aren’t sure who has the latest version of a particular file? Version control can solve these problems and more! 
 
-## Course description
+Git is a popular version control application that can track your code changes, as well as help you to be more methodical in your programming. Win win! This session will introduce the basics of version control, how to use git to keep track of your changes to a project, and using [GitHub](http://github.com) to collaborate with other developers.
 
-Use this space for a short description of your course. We recommend using the description from your meetup event.
+Want to try git for yourself? Github has a 15-minute tutorial you can go through on your own [here](https://try.github.io). 
 
-**Cost:** 
+## This workshop will cover…
 
-**Dates:** 
-
-**Location:** 
-
-A limited number of scholarships are available for those with a financial hardship. To apply, contact us at...
-
-
-### Prerequisites:
-
-List any prerequisites for this class, including any previous classes or the equivalent self-study or real-world skills.
-
-You should have:
-
-(a) taken Intro or Intermediate HTML/CSS through Girl Develop It, or
-
-(b) built and managed websites on your own,
-
-**And also:**
-
-(a) taken intro to JavaScript through Girl Develop It, or
-
-(b) be familiar with syntax, arrays, conditionals, for and while loops, event handling, jQuery, AJAX requests, and handling JSON responses.
+* The basic concepts of version control
+* The differences between git and other version control applications
+* Fundamental git commands to track changes to a small project
+* The basics of collaborating on code with other developers in a professional environment
+* Navigating the filesystem with Bash.
+* How to use GitHub 
 
 
-### Tech requirements:
+## Prerequisites
 
- - Your laptop (Mac, PC, or Linux are all okay).
- - A modern web browser - either Chrome or Firefox with Firebug installed.
- - A text editor. We recommend Sublime Text 2 (free; available for Mac, PC, and Linux).
+1. **A willingness to use the command line.**  
+We will be changing directories, listing directory contents, and using git from the command line throughout the class. 
 
+2. **A laptop with Git already installed**…  
+Mac, [http://git-scm.com/download/mac](http://git-scm.com/download/mac)  
+Windows, [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
 
-### Topics covered:
+3. **A Github account…**  
+Sign up for free at [https://github.com/join](https://github.com/join).
 
- - The topics you plan to cover
- - Written in list form
- - Here's another one
+## Course Materials
 
+Resource|URL
+---|---
+Slides|[http://git.gdicincy.com/](http://git.gdicincy.com/)
+Part One: Intro to Bash|[https://github.com/thecodeferret/intro-to-git/blob/master/bash.md](https://github.com/thecodeferret/intro-to-git/blob/master/bash.md)
+Part Two: Intro to Git|[https://github.com/thecodeferret/intro-to-git/blob/master/git.md](https://github.com/thecodeferret/intro-to-git/blob/master/git.md)
+Starter Kit|[https://github.com/thecodeferret/intro-to-git-starter-kit](https://github.com/thecodeferret/intro-to-git-starter-kit)
