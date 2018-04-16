@@ -496,9 +496,9 @@ If you ever make a mistake, you can recover a previous state of a file.
 
 ##**_Creating a save-point is a two-step process..._**  
 
-> * You "stage" your changes before "committing" your changes.
-> * Staged files will be included in the next save-point.
-> * Helps with organizing your files.
+* You "stage" your changes before "committing" your changes.
+* Staged files will be included in the next save-point.
+* Helps with organizing your files.
 
 ---
 
