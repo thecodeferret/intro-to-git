@@ -228,6 +228,9 @@ The command to display documentation for... `man <command>`
 __Hints:__  
 Exit a man page by pressing the 'q' key on your keyboard.
 
+__Windows__
+`help pwd`
+
 ---
 
 `cd` - Change to directory specified by `<path>`
