@@ -10,9 +10,9 @@ https://github.com/thecodeferret/intro-to-git
 ---
 
 ## Welcome!
-
 _Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction._
 
+![](src/images/gdi_cincy_group.jpg)
 ---
 
 ## Some Rules
@@ -21,7 +21,12 @@ _Girl Develop It is here to provide affordable and accessible programs to learn 
 * Every question is important.
 * Help each other.
 * Have fun.
+<br>
+<img src="https://media.giphy.com/media/YJ5OlVLZ2QNl6/giphy.gif" alt="have fun">
 
+---
+##Join Us On Slack
+<a href="http://slack.gdicincy.com/" target="_blank">http://slack.gdicincy.com</a>
 ---
 
 ## Class Overview
@@ -148,10 +153,12 @@ Github helps you visualize your repository while providing some powerful collabo
 ## A Brief History Lesson
 
 A Unix "shell" is a command-line interpreter that provides a traditional user interface for the Unix operating system and for Unix-like systems.
-
+<br><br>
 * There are a [bunch of different shells](http://www.ibm.com/developerworks/library/l-linux-shells/figure1.gif)... Bourne shell, C shell, Korn shell, Z shell, etc.
 * The first major shell was the Bourne Shell, developed in the late 70's.
 * We're going to focus on the "Bourne again shell" or _Bash_ (default shell for OSX and Linux)
+
+<br><br>
 
 _Hint: You can install Bash bindings in Windows via [Git for Windows](https://git-for-windows.github.io/)_
 
@@ -182,151 +189,162 @@ The outline below is provided as a handy reference of the commands we'll cover i
 
 `pwd` - Display your _"present working directory"_.
 
+<img src="https://media.giphy.com/media/3ov9jJJoFINnXlgeBy/giphy.gif">
+
 ---
 
 `ls` - Display the contents of a directory specified by `<path>`.
-> __Optional Flags:__  
-> Long listing (with details)... `ls -l`  
-> List all files... `ls -a`
+<br><br>
+__Optional Flags:__  
+Long listing (with details)... <br>`ls -l`  
+<br>
+List all files... <br>`ls -a`
 
-> __Optional Arguments:__  
-> Apply to files or directories... `ls <path>`
+__Optional Arguments:__  
+Apply to files or directories... `ls <path>`
 
-> __Hint:__  
-> You can use the wildcard character too... `ls *.txt`
+__Hint:__  
+You can use the wildcard character too... `ls *.txt`
 
 ---
+<img src="https://media.giphy.com/media/oFPiPgqwof4Pe/giphy.gif">
 
 `man` - Display documentation for a given command. _"Man" is short for "manual"._
-
-> __Required Arguments:__  
-> The command to display documentation for... `man <command>`
-
-> __Hints:__  
-> Exit a man page by pressing the 'q' key on your keyboard.
+<br><br>
+__Required Arguments:__  
+The command to display documentation for... `man <command>`
+<br><br>
+__Hints:__  
+Exit a man page by pressing the 'q' key on your keyboard.
 
 ---
 
 `cd` - Change to directory specified by `<path>`
-
-> __Optional Arguments:__  
-> The location to move to... `cd <path>`
-
-> __Special Characters:__  
-> Move to the parent directory... `cd ..`  
-> Return to previous working directory... `cd -`  
-> Root of filesystem... `cd /`  
-> Your home directory... `cd ~` or `cd --`  
+<br><br><br>
+__Optional Arguments:__  
+The location to move to... `cd <path>`
+<br><br><br>
+__Special Characters:__  
+Move to the parent directory... `cd ..` 
+<br><br> 
+Return to previous working directory... `cd -`  
+<br>
+Root of filesystem... `cd /`  Your home directory... `cd ~` or `cd --`  
 
 ---
 
 `open` - View directory or file specified by `<path>`.
-
-> __Required Arguments:__  
-> Directory or file... `open <path>`
-
-> __Special Characters:__  
-> A dot character refers to the current directory... `open .`
-
-> __Note For Windows Users...__  
-> Use this command instead... `explorer .`
+<br><br>
+ __Required Arguments:__  
+Directory or file... `open <path>`
+<br><br>
+__Special Characters:__  
+A dot character refers to the current directory... `open .`
+<br><br>
+__Note For Windows Users...__  
+Use this command instead... `explorer .`
 
 ---
 
 `mkdir` - Make a new directory.  
-
-> __Required Arguments:__  
-> The name of the new directory... `mkdir <name>`
-
-> __Optional Flags:__  
-> Create intermediate directories as required. ... `mkdir -p <path>`  
+<br><br>
+__Required Arguments:__  
+The name of the new directory... `mkdir <name>`
+<br><br>
+__Optional Flags:__  
+Create intermediate directories as required. ... `mkdir -p <path>`  
 
 ---
 
 `wget` - Download a file.
-
-> __Required Arguments:__  
-> File url... `wget <url>`
-
-> __Hint:__  
-> Try executing this... `wget http://www.gutenberg.org/files/2600/2600-0.txt`
-
-> __Note for Mac Users:__  
-> If you don't have `wget` try this... `curl -O  http://www.gutenberg.org/files/2600/2600-0.txt`
+<br><br>
+__Required Arguments:__  
+File url... `wget <url>`
+<br><br><br>
+__Hint:__  
+Try executing this... <pre><code>`wget http://www.gutenberg.org/files/2600/2600-0.txt`</code></pre>
+<br>
+__Note for Mac Users:__  
+If you don't have `wget` try this... <pre><code>`curl -O  http://www.gutenberg.org/files/2600/2600-0.txt`</code></pre>
 
 ---
 
 `cat` - Concatenate and print files
-
-> __Required Arguments:__  
-> The file to concatenate... `cat <file>`
-
-> __Hint:__  
-> Path multiple paths to concatenate files... `cat <file> <file>`
-
-> __Special Characters:__  
-> Send output to a new file... `cat file1.txt file2.txt > combined.txt`  
-> Wildcards... `cat *.txt > all-the-files.txt`
-
+<br><br>
+__Required Arguments:__  
+The file to concatenate... `cat <file>`
+<br><br>
+__Hint:__  
+Path multiple paths to concatenate files... `cat <file> <file>`
+<br><br>
+__Special Characters:__  
+Send output to a new file... <pre><code>`cat file1.txt file2.txt > combined.txt` </code></pre>
+Wildcards... <pre><code>`cat *.txt > all-the-files.txt`</code></pre>
 ---
 
 `head` - Show the first ten lines of a file.
+<br><br>
+__Required Arguments:__  
+The file to display... `head <file>`
+<br><br>
+__Optional Flags:__  
+Specify `n` lines... <code>head -n 25 [file]</code>
 
-> __Required Arguments:__  
-> The file to display... `head <file>`
-
-> __Optional Flags:__  
-> Specify `n` lines... head -n 25 <file>`
+<img src="https://media.giphy.com/media/PAYKGXwqau2Jy/giphy.gif">
 
 ---
 
 `tail` - Show the last ten lines of a file.
+<br><br>
+__Required Arguments:__  
+The file to display... `tail <file>`
+<br><br>
+__Optional Flags:__  
+Specify `n` lines... `tail -n 25 [file]`
 
-> __Required Arguments:__  
-> The file to display... `tail <file>`
-
-> __Optional Flags:__  
-> Specify `n` lines... tail -n 25 <file>`
-
+<img src="https://media.giphy.com/media/3MSATtChJjAhW/giphy.gif">
 ---
 
 `mv` - Move (or rename) a file or directory  
-
-> __Required Arguments:__  
-> The target and destination... `mv <target> <destination>`
+<br><br>
+__Required Arguments:__  
+The target and destination... `mv <target> <destination>`
 
 ---
 
 `cp` - Copy a file or directory  
-
-> __Required Arguments:__  
-> The target and destination... `cp <target> <destination>`
-
-> __Optional flags:__  
-> Copy recursively (directories)... `cp -R`  
+<br><br>
+__Required Arguments:__  
+The target and destination... `cp <target> <destination>`
+<br><br>
+__Optional flags:__  
+Copy recursively (directories)... `cp -R`  
 
 ---
 
 `rm` - Remove files and directories  
-
-> __Required Arguments:__  
-> The file or directory to remove... `rm <path>`
-
-> __Optional Flags:__  
-> Remove recursively (directories)... `rm -r`  
+<br><br>
+__Required Arguments:__  
+The file or directory to remove... `rm <path>`
+<br><br>
+__Optional Flags:__  
+Remove recursively (directories)... `rm -r`  
 
 ---
 
-`history` - Show command history  
-> __Special Characters:__  
-> Recall previous command... `!!`  
-> Repeat command in your history... `!<linenumber>`  
+`history` - Show command history
+<br><br>  
+__Special Characters:__  
+Recall previous command... `!!`  
+Repeat command in your history... `!<linenumber>`  
+<img src="https://media.giphy.com/media/12xKlkVpAiWd0Y/giphy.gif">
 
 ---
 
 `vim` - Create and edit text files.
-> __Optional Arguments:__  
-> The directory or file(s) you want edit... `vim <path>`
+<br><br>
+__Optional Arguments:__  
+The directory or file(s) you want edit... `vim <path>`
 
 ---
 
@@ -340,6 +358,8 @@ Vim (which stands for Vi-improved) is a heavy-duty text-editor alot of developer
 
 ## Heads Up!
 
+<img src="https://media.giphy.com/media/PT70ZOWVjQCqI/giphy.gif">
+
 It is, admittedly, confusing as hell for new users because it relies solely on keyboard shortcuts to navigate the interface. But it's installed almost everywhere (and is generally the default editor on most Unix-esque systems) so its worth being familiar with.
 
 ---  
@@ -347,7 +367,7 @@ It is, admittedly, confusing as hell for new users because it relies solely on k
 ### Entering Insert Mode
 
 The trickiest part about using `vim` is understanding that there are multiple "modes". The current mode you're in determines what features are available. For example– if you want to edit an open file, you'll need to enter "insert mode" by pressing the `a` key or `i` key on your keyboard.
-
+<br><br>
 You can tell that you're in "insert mode" if you see `-- INSERT --` displayed in the bottom left corner of your editor window. Once you're in "insert mode" you can type normally and move the cursor around the window with your arrow keys.
 
 ---  
@@ -355,7 +375,7 @@ You can tell that you're in "insert mode" if you see `-- INSERT --` displayed in
 ### Saving Your Edits
 
 After you make your edits, you'll probably want to save them right? To do this, you first need to exit "insert mode" by pressing the `esc` key on your keyboard.
-
+<br><br>
 Next you issue a couple keystrokes in order to tell Vim you want to save your changes. Type the following characters and hit enter to "write" your changes to disk... `:w` (that is a colon followed by the letter w).
 
 ---
@@ -363,7 +383,7 @@ Next you issue a couple keystrokes in order to tell Vim you want to save your ch
 ### Exiting Vim
 
 Closing your open file is alot like saving your edits above. Type the following characters and hit enter to "quit" vim... `:q` (colon then the letter q).
-
+<br><br>
 You can also combine these two actions into one like so... `:wq`
 
 ---
@@ -412,18 +432,20 @@ __`h`__ or __`←`__ - Move cursor left
 ---
 
 ## Intro to Git and Github
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
 
 ---
 
 ### Setup
-
+<br><br>
 1. Download starter kit... http://bit.ly/intro-to-git-starter-kit
+<br><br>
 2. Open a new Bash window and `cd` in to the starter kit's directory
 
 First, let's personalize Git by setting some configuration values...
 
-`git config --global user.name "Your Name"`  
-`git config --global user.email "your_email@whatever.com"`
+<pre><code>`git config --global user.name "Your Name"`</code></pre>  
+<pre><code>`git config --global user.email "your_email@whatever.com"`</code></pre>
 
 ---
 
@@ -440,23 +462,26 @@ As you're working on the files, you can create "save-points" (aka "revisions"; a
 If you ever make a mistake, you can recover a previous state of a file.
 
 ---
+<img src="https://media.giphy.com/media/Axqr1hNEmGJiw/giphy.gif">
 
 `git init`
 
 * Initializes a new "repository"
 * Tells git to keep track of changes in your current directory
-* `ls -la .git`
+* Try: `ls -la .git`
+
+---
 
 `git status`
 
 * Shows what has changed since our last commit.
 * Use this command constantly.
-* Top of your “how do I figure out what happened” tools
-* `git status -s`
+* <strong>Top of your “how do I figure out what happened” tools</strong>
+* Try: `git status -s`
 
 ---
 
-**_Creating a save-point is a two-step process..._**  
+##**_Creating a save-point is a two-step process..._**  
 
 > * You "stage" your changes before "committing" your changes.
 > * Staged files will be included in the next save-point.
@@ -464,15 +489,23 @@ If you ever make a mistake, you can recover a previous state of a file.
 
 ---
 
+##Step 1:
+
 `git add`
 
 * Adds the specified files to the stage<br>(i.e. tell Git to incude this file in the next save-point).
 * `git add .`
 
+---
+
+##Step 2:
+
 `git commit -m "initial commit."`
 
 * Create a new save-point by commiting our changes to the repository.
 * Use the `-m` flag to pass commit message inline.
+
+---
 
 `git log`
 
@@ -500,9 +533,9 @@ _(Checkout `git log -p`)_ <!-- .element: class="fragment" -->
 ---
 
 ## **_In-class Exercise (5 minutes)_:**  
-> 1. Edit some files  
-> 2. Stage your changes  
-> 3. Commit your changes
+1. Edit some files  
+2. Stage your changes  
+3. Commit your changes
 
 ---
 
@@ -510,9 +543,13 @@ Undoing the last commit:
 
 `git reset HEAD~1`
 
+<br><br>
+
 Discarding local changes:
 
 `git checkout .`
+
+<a href="https://stackoverflow.com/questions/14460595/git-checkout-with-dot" target="_blank">A little more about this command</a>
 
 ---
 
@@ -525,8 +562,10 @@ Why would you use remote repos?
 * Deployment
 * Automated Services
 
+<br><br>
 Each repository can have multiple "remotes", you refer to them with aliases.  
-_(Github is just another remote repository.)_
+<br><br>
+Github is just another remote repository.
 
 ---
 
@@ -534,7 +573,7 @@ _(Github is just another remote repository.)_
 
 Create a New Github Repo
 
-> 1. Login to Github.
+1. Login to Github.
 2. Create a new public repository.
 3. Follow on-screen instructions to add remote to your local repository.
 4. Push changes to Github.
@@ -542,15 +581,21 @@ Create a New Github Repo
 
 ---
 
+<img src="https://media.giphy.com/media/3ohzdQhmr2YrxHT45y/giphy.gif">
+
 `git clone`
 
 * Creates a "clone" of a remote repository.
 * Copies the entire commit history to your computer.
 
+---
+
 `git push <remote-alias> <branch-name>`
 
 * Push code on specific branch to a remote repository.
 * Copies your entire commit history to the remote.
+
+<img src="https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif">
 
 ---
 
@@ -568,7 +613,8 @@ Create a New Github Repo
 ---
 
 ##**_Did You Know?_**  
-There are three ways to start a new project...  
+There are three ways to start a new project...
+<br><br>  
 1. `git init`  
 2. `git clone`  
 3. Fork a repository and `git clone`
@@ -645,6 +691,12 @@ These are Github specific terms (though other platforms have adopted them).
 1. Create a new fork of... [girldevelopitcincinnati/memehub](https://github.com/girldevelopitcincinnati/memehub)  
 2. Clone the fork and add new animated gif the respository.  
 3. Submit a pull-request.
+
+---
+
+##Congrats!
+You did it!<br>
+<img src="https://media.giphy.com/media/wue4QtxncWuE8/giphy.gif">
 
 
 
