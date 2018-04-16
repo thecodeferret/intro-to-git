@@ -34,7 +34,7 @@ Sign up for free at [https://github.com/join](https://github.com/join).
 
 Resource|URL
 ---|---
-Slides|[http://git.gdicincy.com/](http://git.gdicincy.com/)
+Slides|[https://thecodeferret.github.io/intro-to-git/#/](https://thecodeferret.github.io/intro-to-git/#/)
 Part One: Intro to Bash|[https://github.com/thecodeferret/intro-to-git/blob/master/bash.md](https://github.com/thecodeferret/intro-to-git/blob/master/bash.md)
 Part Two: Intro to Git|[https://github.com/thecodeferret/intro-to-git/blob/master/git.md](https://github.com/thecodeferret/intro-to-git/blob/master/git.md)
 Starter Kit|[https://github.com/thecodeferret/intro-to-git-starter-kit](https://github.com/thecodeferret/intro-to-git-starter-kit)
