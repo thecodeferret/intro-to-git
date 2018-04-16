@@ -25,6 +25,17 @@ _Girl Develop It is here to provide affordable and accessible programs to learn 
 <img src="https://media.giphy.com/media/YJ5OlVLZ2QNl6/giphy.gif" alt="have fun">
 
 ---
+
+##Tell us about yourself
+<ul>
+<li>Who are you?</li>
+<li>What do you hope to get out of the class?</li>
+<li>What is your favorite animal?</li>
+</ul>
+
+<img src="https://media.giphy.com/media/h3vlT12YvJU8E/giphy.gif">
+---
+
 ##Join Us On Slack
 <a href="http://slack.gdicincy.com/" target="_blank">http://slack.gdicincy.com</a>
 ---
@@ -313,12 +324,14 @@ The target and destination... `mv <target> <destination>`
 ---
 
 `cp` - Copy a file or directory  
-<br><br>
+<br>
 __Required Arguments:__  
 The target and destination... `cp <target> <destination>`
-<br><br>
+<br>
 __Optional flags:__  
 Copy recursively (directories)... `cp -R`  
+
+<img src="https://media.giphy.com/media/A8M4dzTtXIUtG/giphy.gif">
 
 ---
 
