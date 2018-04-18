@@ -504,6 +504,8 @@ If you ever make a mistake, you can recover a previous state of a file.
 * Staged files will be included in the next save-point.
 * Helps with organizing your files.
 
+<img src="https://media.giphy.com/media/AMsZDTy89XZKM/giphy.gif">
+
 ---
 
 ##Step 1:
@@ -525,6 +527,8 @@ If you ever make a mistake, you can recover a previous state of a file.
 * Hint: you can combine these steps as <pre><code>git commit -am "message"</code></pre>
 
 ---
+
+<img src="https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif">
 
 `git log`
 
