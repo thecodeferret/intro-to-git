@@ -414,6 +414,7 @@ You can create a new file or open an existing file the same way. Just pass a fil
 
 Here's list of common keyboard shortcuts, the vast majority of which are not applicable .
 
+__`vimtutor`__ - Get a vim tutorial 
 
 __`i`__ or __`a`__ - Enter insert mode  
 __`v`__ - Enter visual mode  
@@ -438,12 +439,12 @@ __`yy`__ - Copy current line
 __`dd`__ - Delete current line  
 __`p`__ -  Paste  
 __`u`__ - Undo  
-__`Ctrl + R`__ - Redo  
+__`Ctrl + R`__ - Redo
 
 __`k`__ or __`↑`__ - Move cursor up  
 __`j`__ or __`↓`__ - Move cursor down  
 __`l`__ or __`→`__ - Move cursor right  
-__`h`__ or __`←`__ - Move cursor left  
+__`h`__ or __`←`__ - Move cursor left   
 
 ---
 
@@ -520,6 +521,8 @@ If you ever make a mistake, you can recover a previous state of a file.
 
 * Create a new save-point by commiting our changes to the repository.
 * Use the `-m` flag to pass commit message inline.
+<br><br><br>
+* Hint: you can combine these steps as <pre><code>git commit -am "message"</code></pre>
 
 ---
 
@@ -538,13 +541,19 @@ _(Checkout `git log -p`)_ <!-- .element: class="fragment" -->
 
 ---
 
+<img src="https://media.giphy.com/media/2FcCylKoWewX6/giphy.gif">
+
 `git reset <filename>`
 
 * Remove a file from the stage.
 
+---
+
 `git diff`
 
 * Displays changes since the last save-point
+
+<img src="https://media.giphy.com/media/8zIhf3XfrKsko/giphy.gif">
 
 ---
 
@@ -554,6 +563,8 @@ _(Checkout `git log -p`)_ <!-- .element: class="fragment" -->
 3. Commit your changes
 
 ---
+
+<img src="https://media.giphy.com/media/S7u66urzxc2J2/giphy.gif">
 
 Undoing the last commit:
 
@@ -611,7 +622,7 @@ Create a New Github Repo
 * Push code on specific branch to a remote repository.
 * Copies your entire commit history to the remote.
 
-<img src="https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif">
+
 
 ---
 
@@ -643,6 +654,8 @@ There are three ways to start a new project...
 
 ---
 
+<img src="https://media.giphy.com/media/3Fi5jZkZdJA4M/giphy.gif">
+
 **_Demo_:**  
 1. Draw a linear-picture of what branches look like.
 
@@ -666,12 +679,17 @@ Delete a branch:
 
 ---
 
+<img src="https://media.giphy.com/media/cFkiFMDg3iFoI/giphy.gif">
+
 ### Merging
 
 `git merge <branch-name>`
 
 * Merging combines the histories of two branches.
 * Git will try to automatically merge your code.
+
+---
+###Merge Conflicts
 
 Conflicts happen when Git doesn't know how to merge your code.
 
@@ -687,12 +705,14 @@ When you encounter a conflict, you need to edit the file by hand.
 
 ---
 
+
 ##**_In-Class Exercise_:**  
 1. Create a merge conflict by editing the same file on two branches.  
 2. Merge the branches.  
 3. Resolve the conflict.
 
 ---
+<img src="https://media.giphy.com/media/103R2H9RN2QZgc/giphy.gif">
 
 ### Forks and Pull-Requests
 
