@@ -734,6 +734,24 @@ These are Github specific terms (though other platforms have adopted them).
 You did it!<br>
 <img src="https://media.giphy.com/media/wue4QtxncWuE8/giphy.gif">
 
+---
+###Additional Resources
+
+* <a href="https://www.codecademy.com/learn/learn-the-command-line">Code Academy: Command Line</a>
+* <a href="https://vim-adventures.com/">Vim Adventures</a>
+<br><br>
+* <a href="http://bloggytoons.com/posts/2013/10/10/git-kitchen-wchef-ramsay">Conceptual Git Cartoon</a>
+* <a href="https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/">Version Control</a>
+* <a href="https://www.codecademy.com/learn/learn-git">Code Academy: Learn Git</a>
+* <a href="https://www.freecodecamp.org/challenges/save-your-code-revisions-forever-with-git">Free Code Camp: Git</a>
+* <a href="https://learngitbranching.js.org/">Git Branching Tutorial</a>
+* <a href="https://guides.github.com/introduction/flow/index.html">Github Flow</a>
+* <a href="http://ndpsoftware.com/git-cheatsheet.html">Interactive Git Cheat Sheet</a>
+* <a href="https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf">Official Git Hub Git Cheat Sheet</a>
+* <a href="http://firstaidgit.io/#/">Saving guide for fixing common git fails</a>
+<br><br>Huge Thank you to Sara Powell and Sarah Sachs for letting me shamelessly steal your great advice
+😘
+
 
 
 
