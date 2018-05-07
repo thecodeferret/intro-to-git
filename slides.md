@@ -115,7 +115,7 @@ Created by Linus Torvalds in 2005 for Linux Kernel Development
 1. Very fast and efficient <!-- .element: class="fragment" -->
 1. Cheap local branching <!-- .element: class="fragment" -->
 1. Works great remotely <!-- .element: class="fragment" -->
-1. Popularized by Github <!-- .element: class="fragment" -->
+1. Popularized by GitHub <!-- .element: class="fragment" -->
 
 ---
 
@@ -133,18 +133,18 @@ Created by Linus Torvalds in 2005 for Linux Kernel Development
 
 There are also some GUIs for Git...
 
-* [Github for Mac and Windows](https://desktop.github.com/)
+* [GitHub for Mac and Windows](https://desktop.github.com/)
 * [and many more...](https://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools#Graphical_Interfaces)
 
 ---
 
-## What is Github?
+## What is GitHub?
 
-Github helps you visualize your repository while providing some powerful collaboration and code management tools.
+GitHub helps you visualize your repository while providing some powerful collaboration and code management tools.
 
 * Forks &amp; Pull Requests <!-- .element: class="fragment" -->
 * Issues <!-- .element: class="fragment" -->
-* Wikis &amp; Github Pages<!-- .element: class="fragment" -->
+* Wikis &amp; GitHub Pages<!-- .element: class="fragment" -->
 * Organizations <!-- .element: class="fragment" -->
 * Releases &amp; Tags <!-- .element: class="fragment" -->
 * ...and more <!-- .element: class="fragment" -->
@@ -448,7 +448,7 @@ __`h`__ or __`←`__ - Move cursor left
 
 ---
 
-## Intro to Git and Github
+## Intro to Git and GitHub
 <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
 
 ---
@@ -596,18 +596,18 @@ Why would you use remote repos?
 <br><br>
 Each repository can have multiple "remotes", you refer to them with aliases.  
 <br><br>
-Github is just another remote repository.
+GitHub is just another remote repository.
 
 ---
 
 ##**_In-Class Exercise (5-minutes)_:** 
 
-Create a New Github Repo
+Create a New GitHub Repo
 
-1. Login to Github.
+1. Login to GitHub.
 2. Create a new public repository.
 3. Follow on-screen instructions to add remote to your local repository.
-4. Push changes to Github.
+4. Push changes to GitHub.
 5. Checkout how you can clone.
 
 ---
@@ -631,7 +631,7 @@ Create a New Github Repo
 ---
 
  **_Demo_:**  
-1. Edit a file on Github.  
+1. Edit a file on GitHub.  
 2. Pull it's changes down.  
 
 ---
@@ -720,9 +720,9 @@ When you encounter a conflict, you need to edit the file by hand.
 
 ### Forks and Pull-Requests
 
-These are Github specific terms (though other platforms have adopted them).
+These are GitHub specific terms (though other platforms have adopted them).
 
-* A "fork" is clone of a repository to your Github account.
+* A "fork" is clone of a repository to your GitHub account.
 * A "pull-request" is a formal request to merge forked code back into the original repo.
 
 ---
@@ -749,7 +749,7 @@ You did it!<br>
 * <a href="https://www.codecademy.com/learn/learn-git">Code Academy: Learn Git</a>
 * <a href="https://www.freecodecamp.org/challenges/save-your-code-revisions-forever-with-git">Free Code Camp: Git</a>
 * <a href="https://learngitbranching.js.org/">Git Branching Tutorial</a>
-* <a href="https://guides.github.com/introduction/flow/index.html">Github Flow</a>
+* <a href="https://guides.github.com/introduction/flow/index.html">GitHub Flow</a>
 * <a href="http://ndpsoftware.com/git-cheatsheet.html">Interactive Git Cheat Sheet</a>
 * <a href="https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf">Official Git Hub Git Cheat Sheet</a>
 * <a href="http://firstaidgit.io/#/">Saving guide for fixing common git fails</a>

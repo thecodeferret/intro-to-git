@@ -109,16 +109,16 @@ Why would you use remote repos?
 * Automated Services
 
 Each repository can have multiple "remotes", you refer to them with aliases.  
-_(Github is just another remote repository.)_
+_(GitHub is just another remote repository.)_
 
 ---
 
-> **_In-Class Exercise (5-minutes)_:** Create a New Github Repo
+> **_In-Class Exercise (5-minutes)_:** Create a New GitHub Repo
 
-> 1. Login to Github.
+> 1. Login to GitHub.
 2. Create a new public repository.
 3. Follow on-screen instructions to add remote to your local repository.
-4. Push changes to Github.
+4. Push changes to GitHub.
 5. Checkout how you can clone.
 
 ---
@@ -136,7 +136,7 @@ _(Github is just another remote repository.)_
 ---
 
 > **_Demo_:**  
-> 1. Edit a file on Github.  
+> 1. Edit a file on GitHub.  
 2. Pull it's changes down.  
 
 ---
@@ -219,9 +219,9 @@ When you encounter a conflict, you need to edit the file by hand.
 
 ### Forks and Pull-Requests
 
-These are Github specific terms (though other platforms have adopted them).
+These are GitHub specific terms (though other platforms have adopted them).
 
-* A "fork" is clone of a repository to your Github account.
+* A "fork" is clone of a repository to your GitHub account.
 * A "pull-request" is a formal request to merge forked code back into the original repo.
 
 ---
