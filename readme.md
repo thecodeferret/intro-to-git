@@ -1,4 +1,4 @@
-# Intro to Git &amp; Github :octocat:  
+# Intro to Git &amp; GitHub :octocat:  
 
 **Presented by [Girl Develop It, Cincinnati](http://gdicincy.com)**
 
@@ -6,7 +6,7 @@ Ever make changes that broke your code and forgot how your code worked before? W
 
 Git is a popular version control application that can track your code changes, as well as help you to be more methodical in your programming. Win win! This session will introduce the basics of version control, how to use git to keep track of your changes to a project, and using [GitHub](http://github.com) to collaborate with other developers.
 
-Want to try git for yourself? Github has a 15-minute tutorial you can go through on your own [here](https://try.github.io). 
+Want to try git for yourself? GitHub has a 15-minute tutorial you can go through on your own [here](https://try.github.io). 
 
 ## This workshop will cover…
 
@@ -27,7 +27,7 @@ We will be changing directories, listing directory contents, and using git from 
 Mac, [http://git-scm.com/download/mac](http://git-scm.com/download/mac)  
 Windows, [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
 
-3. **A Github account…**  
+3. **A GitHub account…**  
 Sign up for free at [https://github.com/join](https://github.com/join).
 
 ## Course Materials
