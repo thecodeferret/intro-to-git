@@ -121,10 +121,10 @@ Created by Linus Torvalds in 2005 for Linux Kernel Development
 
 ## Getting Git
 
-* **OSX:**  
+* **macOS:**  
   Download [Git for Mac](http://git-scm.com/download/mac)
 
-* **Windows**  
+* **Windows:**  
   Download [Git for Windows](https://git-for-windows.github.io/)
 
 ---
@@ -167,7 +167,7 @@ A Unix "shell" is a command-line interpreter that provides a traditional user in
 <br><br>
 * There are a [bunch of different shells](http://www.ibm.com/developerworks/library/l-linux-shells/figure1.gif)... Bourne shell, C shell, Korn shell, Z shell, etc.
 * The first major shell was the Bourne Shell, developed in the late 70's.
-* We're going to focus on the "Bourne again shell" or _Bash_ (default shell for OSX and Linux)
+* We're going to focus on the "Bourne again shell" or _Bash_ (default shell for macOS and Linux)
 
 <br><br>
 
@@ -366,7 +366,7 @@ The directory or file(s) you want edit... `vim <path>`
 
 ## Editing Text Files with Vim
 
-Vim (which stands for Vi-improved) is a heavy-duty text-editor alot of developers use full-time.
+Vim (which stands for Vi-improved) is a heavy-duty text-editor a lot of developers use full-time.
 
 ![](src/images/vim.png)
 
@@ -461,8 +461,8 @@ __`h`__ or __`←`__ - Move cursor left
 
 First, let's personalize Git by setting some configuration values...
 
-<pre><code>`git config --global user.name "Your Name"`</code></pre>  
-<pre><code>`git config --global user.email "your_email@whatever.com"`</code></pre>
+<pre><code>git config --global user.name "Your Name"</code></pre>  
+<pre><code>git config --global user.email "your_email@whatever.com"</code></pre>
 
 ---
 
@@ -533,13 +533,13 @@ If you ever make a mistake, you can recover a previous state of a file.
 `git log`
 
 * See all the save-points over the lifetime of this repository.
-* It's your safety net– you can always get back to anything.
+* It's your safety net&mdash;you can always get back to anything.
 
 ---
 
  **_Demo_:**  
 1. Add new `README.md` and update `index.html`  
-2. Make two seperate commits to illustrate staging area.
+2. Make two separate commits to illustrate staging area.
 
 _(Checkout `git log -p`)_ <!-- .element: class="fragment" -->
 
@@ -592,11 +592,13 @@ Why would you use remote repos?
 * Backups
 * Deployment
 * Automated Services
+<br><br>
 
-<br><br>
-Each repository can have multiple "remotes", you refer to them with aliases.  
-<br><br>
-GitHub is just another remote repository.
+#### Each repository can have multiple "remotes"
+
+* You can refer to them with short names like `origin` or `myfork`.
+* The default name for a remote is `origin`.
+* GitHub is just another remote repository.
 
 ---
 
@@ -608,7 +610,8 @@ Create a New GitHub Repo
 2. Create a new public repository.
 3. Follow on-screen instructions to add remote to your local repository.
 4. Push changes to GitHub.
-5. Checkout how you can clone.
+5. Check out how you can clone.
+6. Look at your "remotes" with `git remote -v`.
 
 ---
 
@@ -621,22 +624,20 @@ Create a New GitHub Repo
 
 ---
 
-`git push <remote-alias> <branch-name>`
+`git push <remote-name> <branch-name>`
 
 * Push code on specific branch to a remote repository.
 * Copies your entire commit history to the remote.
-
-
 
 ---
 
  **_Demo_:**  
 1. Edit a file on GitHub.  
-2. Pull it's changes down.  
+2. Pull its changes down.  
 
 ---
 
-`git pull <remote-alias> <branch-name>`
+`git pull <remote-name> <branch-name>`
 
 * Copies updates from a remote repository to your computer.
 * Git will try to automatically merge your code.
